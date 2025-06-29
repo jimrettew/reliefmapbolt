@@ -1,0 +1,17 @@
+[build]
+  publish = "build"
+  command = "npm install && npm run build:web"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_FLAGS = "--version"
+  RUBY_VERSION = ""
+  BUNDLE_GEMFILE = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.processing]
+  skip_processing = true 

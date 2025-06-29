@@ -1,0 +1,6 @@
+# SPA fallback for client-side routing
+/*    /index.html   200
+
+# Force HTTPS redirect
+http://reliefmap.org/*    https://reliefmap.org/:splat  301!
+http://www.reliefmap.org/*    https://reliefmap.org/:splat  301! 
